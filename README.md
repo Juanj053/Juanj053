@@ -44,7 +44,7 @@ Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of b
 | Repository | Domain & Architecture | Mathematical / Computational Engine | Status |
 | :--- | :--- | :--- | :--- |
 | [**`insilico-peptide-toolkit`**](https://github.com/Juanj053/insilico-peptide-toolkit) | Pre-clinical peptide screening & design | Alanine scanning, $\Delta\Delta G$ heuristics, multi-protic net charge titration, UniProt/AlphaFold/ChEMBL connectors | [![PyPI](https://img.shields.io/badge/tests-100%25%20passing-brightgreen)](https://github.com/Juanj053/insilico-peptide-toolkit) |
-| [**`biopython-sequence-pipeline`**](https://github.com/Juanj053/biopython-sequence-pipeline) | Industrial & academic sequence pipeline | BioPython thermodynamics, codon usage bias (RSCU), multi-omics integration (Ensembl, Reactome, GTEx) | [![Status](https://img.shields.io/badge/pipeline-reproducible-blue)](https://github.com/Juanj053/biopython-sequence-pipeline) |
+| [**`biopython-sequence-pipeline`**](https://github.com/Juanj053/biopython-sequence-pipeline) | Snakemake Workflow Catalog Pipeline | BioPython thermodynamics, RSCU codon bias, modular `.smk` rules, Conda isolation, dynamic HTML report | [![Snakemake](https://img.shields.io/badge/Snakemake-Catalog%20Standard-4B8BBE?logo=snakemake&logoColor=white)](https://github.com/Juanj053/biopython-sequence-pipeline) |
 | [**`fermentation-ml-predictor`**](https://github.com/Juanj053/fermentation-ml-predictor) | Machine Learning for fermentation bioprocesses | Non-linear regression (Gradient Boosting, Random Forest, $R^2 > 0.90$) for $k_L a$, shear stress, Haldane kinetics | [![ML](https://img.shields.io/badge/model-R%C2%B2%20%3E%200.90-success)](https://github.com/Juanj053/fermentation-ml-predictor) |
 | [**`bioreactor-dashboard`**](https://github.com/Juanj053/bioreactor-dashboard) | Interactive SCADA bioreactor analytics | Streamlit + Plotly telemetry for dissolved oxygen, pH dynamics, temperature, and biomass curves | [![UI](https://img.shields.io/badge/dashboard-interactive-orange)](https://github.com/Juanj053/bioreactor-dashboard) |
 | [**`simulacion-bioprocesos`**](https://github.com/Juanj053/simulacion-bioprocesos) | Bioprocess scale-up simulator | 20 L pilot to 200 L industrial reactors under constant $P/V$, tip speed $v_{\text{tip}}$, Monod & Luedeking-Piret | [![ScaleUp](https://img.shields.io/badge/scale--up-20L%20%E2%86%92%20200L-blueviolet)](https://github.com/Juanj053/simulacion-bioprocesos) |
@@ -56,6 +56,7 @@ Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of b
 
 - **Core Languages:** Python 3.10+, SQL, Bash / Shell, LaTeX / KaTeX.
 - **Biocomputing & Multi-Omics:** BioPython, UniProt API, AlphaFold Database, ChEMBL REST, Ensembl REST, GTEx, Reactome.
+- **Pipelines & Workflows:** Snakemake (Workflow Catalog standard, DSL2 paradigms, Conda env isolation, DAG reporting).
 - **Data Science & Machine Learning:** Scikit-learn, NumPy, SciPy, Pandas, SymPy.
 - **Data Visualization & Telemetry:** Matplotlib, Seaborn, Plotly, Streamlit, ReportLab (Platypus engine).
 - **Architecture & Agents:** CrewAI (>=0.152.0), Pydantic, Hatchling, `uv`, GitHub Actions (CI/CD), Pytest.
