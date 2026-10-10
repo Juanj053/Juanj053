@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/juanj-alva"><img src="https://img.shields.io/badge/LinkedIn-Juan%20Jos%C3%A9%20%C3%81lvarez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:jjalvarezm77@gmail.com"><img src="https://img.shields.io/badge/Email-jjalvarezm77%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/Juanj053?tab=repositories"><img src="https://img.shields.io/badge/Toolkits-6%20Public%20Repos-238636?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
+  <a href="https://github.com/Juanj053?tab=repositories"><img src="https://img.shields.io/badge/Toolkits-8%20Public%20Repos-238636?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
   <a href="https://github.com/Juanj053/insilico-peptide-toolkit"><img src="https://img.shields.io/badge/Elevate%20Biotech-Translational%20Peptides-0969DA?style=for-the-badge" alt="Elevate Biotech"></a>
 </p>
 
@@ -20,8 +20,8 @@ Biotechnology Engineer graduated from **Universidad Técnica de Ambato (UTA)**, 
 
 Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of bioregulatory peptides and cellular longevity molecules, coupled with industrial bioprocess scale-up pipelines (20 L pilot to 200 L industrial reactors).
 
-- 🔬 **In-Silico Peptide Discovery:** Biophysical property calculation (mono/average MW, multi-protic pI bisection, GRAVY, hydrophobic moment $\mu_H$, instability index), alanine scanning mutagenesis, and multi-omic API integration (UniProt, AlphaFold DB, ChEMBL).
-- ⚙️ **Bioprocess Engineering & Kinetics:** Non-linear machine learning modeling (Gradient Boosting, Random Forest) of oxygen volumetric mass transfer coefficient ($k_L a$), shear stress, and substrate-inhibited Monod / Haldane kinetics.
+- 🔬 **In-Silico Peptide Discovery & ADMET:** Biophysical property calculation (pI bisection, GRAVY, hydrophobic moment $\mu_H$), alanine scanning mutagenesis, 8 MEROPS protease cleavage profiling, semi-classical PBPK plasma $t_{1/2}$ modeling, and multi-omic API integration (UniProt, AlphaFold DB, ChEMBL).
+- ⚙️ **Bioprocess Engineering & Gray-Box PINNs:** Physics-Informed Neural Networks (PyTorch) embedding coupled non-linear ODEs (dual Monod, Pirt, Luedeking-Piret, oxygen $k_L a$ transfer), non-linear ML ($R^2 > 0.99$), and pilot-to-industrial scale-up (20 L to 200 L).
 - 📊 **Telemetry & Automated GMP Reporting:** Interactive SCADA telemetry dashboards (Streamlit / Plotly) and 300-DPI automated PDF technical dossiers with ReportLab Platypus.
 - 🤖 **Autonomous Multi-Agent Systems:** Declarative CrewAI architectures for peer-reviewed scientific literature synthesis, publication-grade analytical plot generation, and academic networking.
 
@@ -37,14 +37,17 @@ Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of b
         ┌───────────────────────────────────┼───────────────────────────────────┐
         ▼                                   ▼                                   ▼
 [ MOLECULAR DISCOVERY ]              [ BIOPROCESS & ML ]              [ TELEMETRY & AUDIT ]
-• insilico-peptide-toolkit           • fermentation-ml-predictor      • bioreactor-dashboard
-• biopython-sequence-pipeline        • simulacion-bioprocesos         • bioreactor-report-automation
+• insilico-peptide-toolkit           • bioprocess-digital-twin-pinn   • bioreactor-dashboard
+• pep-admet-engine                   • fermentation-ml-predictor      • bioreactor-report-automation
+• biopython-sequence-pipeline        • simulacion-bioprocesos
 ```
 
 | Repository | Domain & Architecture | Mathematical / Computational Engine | Status |
 | :--- | :--- | :--- | :--- |
 | [**`insilico-peptide-toolkit`**](https://github.com/Juanj053/insilico-peptide-toolkit) | Pre-clinical peptide screening & design | Alanine scanning, $\Delta\Delta G$ heuristics, multi-protic net charge titration, UniProt/AlphaFold/ChEMBL connectors | [![PyPI](https://img.shields.io/badge/tests-100%25%20passing-brightgreen)](https://github.com/Juanj053/insilico-peptide-toolkit) |
+| [**`pep-admet-engine`**](https://github.com/Juanj053/pep-admet-engine) | Proteolytic stability & in-silico ADMET | 8 MEROPS proteases, $t_{1/2}$ PBPK clearance, Semaglutide/BPC-157/GHK-Cu benchmarks, Snakemake workflow | [![Snakemake](https://img.shields.io/badge/Snakemake-Catalog%20Standard-4B8BBE?logo=snakemake&logoColor=white)](https://github.com/Juanj053/pep-admet-engine) |
 | [**`biopython-sequence-pipeline`**](https://github.com/Juanj053/biopython-sequence-pipeline) | Snakemake Workflow Catalog Pipeline | BioPython thermodynamics, RSCU codon bias, modular `.smk` rules, Conda isolation, dynamic HTML report | [![Snakemake](https://img.shields.io/badge/Snakemake-Catalog%20Standard-4B8BBE?logo=snakemake&logoColor=white)](https://github.com/Juanj053/biopython-sequence-pipeline) |
+| [**`bioprocess-digital-twin-pinn`**](https://github.com/Juanj053/bioprocess-digital-twin-pinn) | Physics-Informed Neural Network Digital Twin | Gray-box PyTorch PINN, 20 L aerobic reactor, Monod/Pirt/kLa ODEs, soft-sensor autograd ($R^2 > 0.997$) | [![PyTorch](https://img.shields.io/badge/PyTorch-PINN%20Digital%20Twin-EE4C2C?logo=pytorch&logoColor=white)](https://github.com/Juanj053/bioprocess-digital-twin-pinn) |
 | [**`fermentation-ml-predictor`**](https://github.com/Juanj053/fermentation-ml-predictor) | Machine Learning for fermentation bioprocesses | Non-linear regression (Gradient Boosting, Random Forest, $R^2 > 0.90$) for $k_L a$, shear stress, Haldane kinetics | [![ML](https://img.shields.io/badge/model-R%C2%B2%20%3E%200.90-success)](https://github.com/Juanj053/fermentation-ml-predictor) |
 | [**`bioreactor-dashboard`**](https://github.com/Juanj053/bioreactor-dashboard) | Interactive SCADA bioreactor analytics | Streamlit + Plotly telemetry for dissolved oxygen, pH dynamics, temperature, and biomass curves | [![UI](https://img.shields.io/badge/dashboard-interactive-orange)](https://github.com/Juanj053/bioreactor-dashboard) |
 | [**`simulacion-bioprocesos`**](https://github.com/Juanj053/simulacion-bioprocesos) | Bioprocess scale-up simulator | 20 L pilot to 200 L industrial reactors under constant $P/V$, tip speed $v_{\text{tip}}$, Monod & Luedeking-Piret | [![ScaleUp](https://img.shields.io/badge/scale--up-20L%20%E2%86%92%20200L-blueviolet)](https://github.com/Juanj053/simulacion-bioprocesos) |
@@ -55,6 +58,7 @@ Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of b
 ### 🛠️ Computational Arsenal & Tech Stack
 
 - **Core Languages:** Python 3.10+, SQL, Bash / Shell, LaTeX / KaTeX.
+- **Deep Learning & PINNs:** PyTorch (higher-order autograd, scientific PINNs, custom collocation loss functionals).
 - **Biocomputing & Multi-Omics:** BioPython, UniProt API, AlphaFold Database, ChEMBL REST, Ensembl REST, GTEx, Reactome.
 - **Pipelines & Workflows:** Snakemake (Workflow Catalog standard, DSL2 paradigms, Conda env isolation, DAG reporting).
 - **Data Science & Machine Learning:** Scikit-learn, NumPy, SciPy, Pandas, SymPy.
