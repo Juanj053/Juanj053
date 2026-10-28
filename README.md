@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/juanj-alva"><img src="https://img.shields.io/badge/LinkedIn-Juan%20Jos%C3%A9%20%C3%81lvarez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:jjalvarezm77@gmail.com"><img src="https://img.shields.io/badge/Email-jjalvarezm77%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/Juanj053?tab=repositories"><img src="https://img.shields.io/badge/Toolkits-8%20Public%20Repos-238636?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
+  <a href="https://github.com/Juanj053?tab=repositories"><img src="https://img.shields.io/badge/Toolkits-9%20Public%20Repos-238636?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
   <a href="https://github.com/Juanj053/insilico-peptide-toolkit"><img src="https://img.shields.io/badge/Elevate%20Biotech-Translational%20Peptides-0969DA?style=for-the-badge" alt="Elevate Biotech"></a>
 </p>
 
@@ -37,13 +37,15 @@ Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of b
         ┌───────────────────────────────────┼───────────────────────────────────┐
         ▼                                   ▼                                   ▼
 [ MOLECULAR DISCOVERY ]              [ BIOPROCESS & ML ]              [ TELEMETRY & AUDIT ]
-• insilico-peptide-toolkit           • bioprocess-digital-twin-pinn   • bioreactor-dashboard
-• pep-admet-engine                   • fermentation-ml-predictor      • bioreactor-report-automation
-• biopython-sequence-pipeline        • simulacion-bioprocesos
+• insilico-peptide-toolkit           • bioprocess-visual-twin         • bioreactor-dashboard
+• pep-admet-engine                   • bioprocess-digital-twin-pinn   • bioreactor-report-automation
+• biopython-sequence-pipeline        • fermentation-ml-predictor      
+                                     • simulacion-bioprocesos
 ```
 
 | Repository | Domain & Architecture | Mathematical / Computational Engine | Status |
 | :--- | :--- | :--- | :--- |
+| [**`bioprocess-visual-twin`**](https://github.com/Juanj053/bioprocess-visual-twin) | 60 FPS Bioreactor Fluid & SCADA Simulator | Real-time Canvas 2D fluid dynamics, 4 reactor types (STR Rushton/Marine, Airlift, PBR), Dual Monod & Van't Riet kla | [![Live Demo](https://img.shields.io/badge/demo-GitHub%20Pages-06B6D4?logo=googlechrome&logoColor=white)](https://juanj053.github.io/bioprocess-visual-twin/) |
 | [**`insilico-peptide-toolkit`**](https://github.com/Juanj053/insilico-peptide-toolkit) | Pre-clinical peptide screening & design | Alanine scanning, $\Delta\Delta G$ heuristics, multi-protic net charge titration, UniProt/AlphaFold/ChEMBL connectors | [![PyPI](https://img.shields.io/badge/tests-100%25%20passing-brightgreen)](https://github.com/Juanj053/insilico-peptide-toolkit) |
 | [**`pep-admet-engine`**](https://github.com/Juanj053/pep-admet-engine) | Proteolytic stability & in-silico ADMET | 8 MEROPS proteases, $t_{1/2}$ PBPK clearance, Semaglutide/BPC-157/GHK-Cu benchmarks, Snakemake workflow | [![Snakemake](https://img.shields.io/badge/Snakemake-Catalog%20Standard-4B8BBE?logo=snakemake&logoColor=white)](https://github.com/Juanj053/pep-admet-engine) |
 | [**`biopython-sequence-pipeline`**](https://github.com/Juanj053/biopython-sequence-pipeline) | Snakemake Workflow Catalog Pipeline | BioPython thermodynamics, RSCU codon bias, modular `.smk` rules, Conda isolation, dynamic HTML report | [![Snakemake](https://img.shields.io/badge/Snakemake-Catalog%20Standard-4B8BBE?logo=snakemake&logoColor=white)](https://github.com/Juanj053/biopython-sequence-pipeline) |
@@ -57,8 +59,9 @@ Founder of **Elevate Biotech**, pioneering pre-clinical in-silico screening of b
 
 ### 🛠️ Computational Arsenal & Tech Stack
 
-- **Core Languages:** Python 3.10+, SQL, Bash / Shell, LaTeX / KaTeX.
+- **Core Languages:** Python 3.10+, JavaScript (ES6+), SQL, Bash / Shell, LaTeX / KaTeX.
 - **Deep Learning & PINNs:** PyTorch (higher-order autograd, scientific PINNs, custom collocation loss functionals).
+- **Interactive Web & Graphics:** HTML5 Canvas (60 FPS fluid rendering), Chart.js, Tailwind CSS, Streamlit, Plotly, ReportLab (Platypus).
 - **Biocomputing & Multi-Omics:** BioPython, UniProt API, AlphaFold Database, ChEMBL REST, Ensembl REST, GTEx, Reactome.
 - **Pipelines & Workflows:** Snakemake (Workflow Catalog standard, DSL2 paradigms, Conda env isolation, DAG reporting).
 - **Data Science & Machine Learning:** Scikit-learn, NumPy, SciPy, Pandas, SymPy.
